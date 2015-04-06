@@ -80,7 +80,7 @@ public class MainActivity extends Activity {
           @Override
           public void run() {
               mGoogleApiClient = getGoogleApiClient(getApplicationContext());
-              mGoogleApiClient.blockingConnect(1000, TimeUnit.MILLISECONDS);
+              mGoogleApiClient.blockingConnect(300, TimeUnit.MILLISECONDS);
               NodeApi.GetConnectedNodesResult result =
                       Wearable.NodeApi.getConnectedNodes(mGoogleApiClient).await();
               List<Node> nodes = result.getNodes();
@@ -103,7 +103,7 @@ public class MainActivity extends Activity {
             @Override
             public void run() {
                 mGoogleApiClient = getGoogleApiClient(getApplicationContext());
-                mGoogleApiClient.blockingConnect(1000, TimeUnit.MILLISECONDS);
+                mGoogleApiClient.blockingConnect(300, TimeUnit.MILLISECONDS);
 
                 if (deviceId != null){
 

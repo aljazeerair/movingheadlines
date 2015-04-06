@@ -111,8 +111,6 @@ public class MainActivity extends ActionBarActivity{
                 }
             }
         });
-
-
     }
 
     // get random headline
@@ -134,7 +132,7 @@ public class MainActivity extends ActionBarActivity{
            public void run() {
 
                mGoogleApiClient = getGoogleApiClient(getApplicationContext());
-               mGoogleApiClient.blockingConnect(1000, TimeUnit.MILLISECONDS);
+               mGoogleApiClient.blockingConnect(300, TimeUnit.MILLISECONDS);
 
                NodeApi.GetConnectedNodesResult result =
                        Wearable.NodeApi.getConnectedNodes(mGoogleApiClient).await();
@@ -154,7 +152,7 @@ public class MainActivity extends ActionBarActivity{
           @Override
           public void run() {
               mGoogleApiClient = getGoogleApiClient(getApplicationContext());
-              mGoogleApiClient.blockingConnect(1000, TimeUnit.MILLISECONDS);
+              mGoogleApiClient.blockingConnect(300, TimeUnit.MILLISECONDS);
 
               if (deviceId != null){
 
