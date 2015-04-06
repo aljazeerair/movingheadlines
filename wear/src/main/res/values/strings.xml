@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Moving Headlines</string>
+    <string name="hello_round">Hello Round World!</string>
+    <string name="hello_square">Hello Innovation</string>
+    <string name="title_activity_second">SecondActivity</string>
+</resources>
