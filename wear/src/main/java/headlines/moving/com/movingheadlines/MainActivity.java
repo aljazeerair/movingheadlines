@@ -89,7 +89,6 @@ public class MainActivity extends Activity {
 
                   Log.d("Node",nodeId);
               }
-
               mGoogleApiClient.disconnect();
 
           }

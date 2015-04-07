@@ -10,7 +10,7 @@
         android:layout_height="wrap_content"
         android:text="Push Random GIF"
         android:id="@+id/btnRandom"
-        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/gifImageView"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 
@@ -22,5 +22,26 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_marginTop="81dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Notify me"
+        android:id="@+id/btnNotifyMe"
+        android:layout_below="@+id/btnRandom"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/btnRandom"
+        android:layout_alignEnd="@+id/btnRandom" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Moving Headlines"
+        android:id="@+id/textView"
+        android:layout_marginTop="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
 
 </RelativeLayout>

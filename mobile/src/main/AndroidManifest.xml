@@ -4,7 +4,8 @@
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.VIBRATE" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -20,7 +21,9 @@
             </intent-filter>
         </activity>
 
-        <service android:name=".AppListenerService" >
+        <service
+            android:name=".AppListenerService"
+            android:exported="true" >
             <intent-filter>
                 <action android:name="com.google.android.gms.wearable.BIND_LISTENER" />
             </intent-filter>
@@ -30,10 +33,20 @@
             android:name=".WebActivity"
             android:label="@string/title_activity_web" >
             <intent-filter>
-                <action android:name="com.movingheadlines.ArticleView"/>
-                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="com.movingheadlines.ArticleView" />
+
+                <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".CategoriesActivity"
+            android:label="@string/title_activity_categories" >
+        </activity>
+
+        <service
+            android:name=".NotificationsService"
+            android:exported="false" >
+        </service>
     </application>
 
 </manifest>

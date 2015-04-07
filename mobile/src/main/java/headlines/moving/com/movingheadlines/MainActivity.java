@@ -2,6 +2,8 @@ package headlines.moving.com.movingheadlines;
 
 import android.content.Context;
 import android.content.Intent;
+import android.net.ConnectivityManager;
+import android.net.NetworkInfo;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -10,24 +12,17 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
-
-import com.firebase.client.Firebase;
 import com.google.android.gms.common.api.GoogleApiClient;
-import com.google.android.gms.common.api.PendingResult;
 import com.google.android.gms.common.api.ResultCallback;
-import com.google.android.gms.wearable.DataApi;
 import com.google.android.gms.wearable.MessageApi;
 import com.google.android.gms.wearable.Node;
 import com.google.android.gms.wearable.NodeApi;
-import com.google.android.gms.wearable.PutDataMapRequest;
-import com.google.android.gms.wearable.PutDataRequest;
 import com.google.android.gms.wearable.Wearable;
 import com.koushikdutta.ion.Ion;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Random;
 import java.util.concurrent.TimeUnit;
-
 import com.parse.FindCallback;
 import com.parse.Parse;
 import com.parse.ParseException;
@@ -55,14 +50,20 @@ public class MainActivity extends ActionBarActivity{
         getPairedDevice();
         // populate the headlines list
         headlines = new LinkedList<Headline>();
-        populate();
+        if (isNetworkAvailable())
+        {
+            populate();
+        }
 
         // Random gif
         ImageView gifImageView = (ImageView) findViewById(R.id.gifImageView);
-        Ion.with(gifImageView).load("http://www.reactiongifs.com/r/fbi.gif");
+        Ion.with(gifImageView).load("http://media.giphy.com/media/orn1xellkRmyQ/giphy.gif");
 
         // push random headlines to the wearables
         Button btnRandom = (Button)findViewById(R.id.btnRandom);
+        Button btnNotifyMe = (Button)findViewById(R.id.btnNotifyMe);
+
+        // Random gifs button
         btnRandom.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -70,11 +71,25 @@ public class MainActivity extends ActionBarActivity{
                 Log.d("Clicked", "Notification sent to "+ nodeId);
                  getPairedDevice();
                 // send a combination of GifName + TargetLink
-                Headline randomHeadline = getRandomHeadline(headlines);
-                sendNotification(nodeId, randomHeadline.GifName + ";" + randomHeadline.TargetLink);
-                Log.d("Sent", randomHeadline.GifName+ ";" + randomHeadline.TargetLink);
+                if (isEverythingOK()){
+                    Headline randomHeadline = getRandomHeadline(headlines);
+                    sendNotification(nodeId, randomHeadline.GifName + ";" + randomHeadline.TargetLink);
+                    Log.d("Sent", randomHeadline.GifName+ ";" + randomHeadline.TargetLink);
+                }
+
             }
         });
+
+        // Notify me button
+        btnNotifyMe.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Intent chooseCategory = new Intent(getApplicationContext(),CategoriesActivity.class);
+                startActivity(chooseCategory);
+            }
+        });
+
     }
 
     @Override
@@ -106,7 +121,7 @@ public class MainActivity extends ActionBarActivity{
             @Override
             public void done(List<ParseObject> parseObjects, ParseException e) {
                 for (int i = 0; i < parseObjects.size(); i++) {
-                    Headline headline = new Headline(parseObjects.get(i).get("GifName").toString(),parseObjects.get(i).get("TargetLink").toString());
+                    Headline headline = new Headline(parseObjects.get(i).get("GifName").toString(),parseObjects.get(i).get("TargetLink").toString(),Integer.parseInt(parseObjects.get(i).get("Category").toString()));
                     headlines.add(headline);
                 }
             }
@@ -141,8 +156,8 @@ public class MainActivity extends ActionBarActivity{
                    nodeId = nodes.get(0).getId();
 
                    Log.d("Node",nodeId);
+                   mGoogleApiClient.disconnect();
                }
-               mGoogleApiClient.disconnect();
            }
        }).start();
     }
@@ -153,6 +168,7 @@ public class MainActivity extends ActionBarActivity{
           public void run() {
               mGoogleApiClient = getGoogleApiClient(getApplicationContext());
               mGoogleApiClient.blockingConnect(300, TimeUnit.MILLISECONDS);
+
 
               if (deviceId != null){
 
@@ -167,7 +183,6 @@ public class MainActivity extends ActionBarActivity{
               }
 
               mGoogleApiClient.disconnect();
-
           }
 
       }).start();
@@ -176,5 +191,23 @@ public class MainActivity extends ActionBarActivity{
     private GoogleApiClient getGoogleApiClient(Context context){
         return
             new GoogleApiClient.Builder(context).addApi(Wearable.API).build();
+    }
+
+    // Test if network is available
+    private boolean isNetworkAvailable() {
+        ConnectivityManager connectivityManager
+                = (ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE);
+        NetworkInfo activeNetworkInfo = connectivityManager.getActiveNetworkInfo();
+        return activeNetworkInfo != null && activeNetworkInfo.isConnected();
+    }
+
+    // Test if all conditions are set (Network available + one paired watch)
+
+    private boolean isEverythingOK(){
+        if (isNetworkAvailable() && nodeId != null){
+            return true;
+        }
+        else
+            return false;
     }
 }
