@@ -23,7 +23,8 @@
 
         <service
             android:name=".AppListenerService"
-            android:exported="true" >
+            android:exported="true"
+            android:enabled="true">
             <intent-filter>
                 <action android:name="com.google.android.gms.wearable.BIND_LISTENER" />
             </intent-filter>

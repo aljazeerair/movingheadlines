@@ -9,7 +9,7 @@
 
     <SurfaceView
         android:layout_width="match_parent"
-        android:layout_height="139dp"
+        android:layout_height="match_parent"
         android:id="@+id/gifSurfaceView"
         android:layout_gravity="center_horizontal" />
 
@@ -18,5 +18,6 @@
         android:layout_height="match_parent"
         android:text="Open on phone"
         android:id="@+id/btnOpenOnPhone"
-        android:layout_gravity="center_horizontal" />
+        android:layout_gravity="center_horizontal"
+        android:visibility="invisible" />
 </LinearLayout>

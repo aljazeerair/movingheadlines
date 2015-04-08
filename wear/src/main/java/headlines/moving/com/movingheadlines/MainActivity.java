@@ -42,6 +42,8 @@ public class MainActivity extends Activity {
                     @Override
                     public void run() {
 
+                        getPairedDevice();
+
                         // Load the gif from Drawables
                         SurfaceView gifSurfaceView = (SurfaceView) findViewById(R.id.gifSurfaceView);
                         GifRun gif = new GifRun();
@@ -66,9 +68,16 @@ public class MainActivity extends Activity {
                             }
                         });
 
+                        // Tap on gif
+                        gifSurfaceView.setOnClickListener(new View.OnClickListener() {
+                            @Override
+                            public void onClick(View v) {
+                                getPairedDevice();
+                                sendNotification(nodeId,TARGETLINK);
+                            }
+                        });
                     }
                 });
-
             }
         });
 

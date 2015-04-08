@@ -9,6 +9,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.SurfaceView;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
@@ -62,6 +63,7 @@ public class MainActivity extends ActionBarActivity{
         // push random headlines to the wearables
         Button btnRandom = (Button)findViewById(R.id.btnRandom);
         Button btnNotifyMe = (Button)findViewById(R.id.btnNotifyMe);
+
 
         // Random gifs button
         btnRandom.setOnClickListener(new View.OnClickListener() {
