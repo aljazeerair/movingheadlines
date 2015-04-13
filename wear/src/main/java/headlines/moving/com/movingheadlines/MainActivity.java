@@ -1,8 +1,15 @@
+/*
+    Moving Headlines - AlJazeera Innovation and Research - 2015
+
+    Exploring the news value of an animated GIF in the age of wearables
+
+    The source is distributed under an MIT License
+ */
+
 package headlines.moving.com.movingheadlines;
 
 import android.app.Activity;
 import android.content.Context;
-import android.content.Intent;
 import android.content.res.Resources;
 import android.os.Bundle;
 import android.support.wearable.view.WatchViewStub;
@@ -17,7 +24,6 @@ import com.google.android.gms.wearable.Node;
 import com.google.android.gms.wearable.NodeApi;
 import com.google.android.gms.wearable.Wearable;
 import java.util.List;
-import java.util.Set;
 import java.util.concurrent.TimeUnit;
 import gif.decoder.*;
 
@@ -133,12 +139,6 @@ public class MainActivity extends Activity {
     private GoogleApiClient getGoogleApiClient(Context context){
         return
                 new GoogleApiClient.Builder(context).addApi(Wearable.API).build();
-    }
-
-    private Thread[] getAllThreads(){
-
-        Set<Thread> currentThreads = Thread.getAllStackTraces().keySet();
-        return currentThreads.toArray(new Thread[currentThreads.size()]);
     }
 
 

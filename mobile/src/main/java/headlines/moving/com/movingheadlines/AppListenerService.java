@@ -1,3 +1,11 @@
+/*
+    Moving Headlines - AlJazeera Innovation and
+
+    Exploring the news value of an animated GIF in the age of wearables
+
+    The source is distributed under an MIT License
+ */
+
 package headlines.moving.com.movingheadlines;
 
 import android.content.Intent;

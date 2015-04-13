@@ -13,8 +13,7 @@ public class NotificationsService extends IntentService {
     @Override
     protected void onHandleIntent(Intent intent) {
         if (intent != null) {
-          // Initialize Parse and listen to new headlines
-          // Compare both Firebase and Parse in this case
+
         }
     }
 

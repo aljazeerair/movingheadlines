@@ -14,14 +14,6 @@ public class CategoriesActivity extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_categories);
-
-        Button btnReceiveNotification = (Button)findViewById(R.id.btnReceiveNotifications);
-        btnReceiveNotification.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                // TODO: Start the service
-            }
-        });
     }
 
 

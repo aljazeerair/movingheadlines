@@ -1,8 +1,12 @@
 <resources>
     <string name="app_name">Moving Headlines</string>
-
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
     <string name="title_activity_web">WebActivity</string>
     <string name="title_activity_categories">CategoriesActivity</string>
+    <string name="application_key">YOUR_APPLICATION_KEY_HERE</string>
+    <string name="secret_key">YOUR_SECRET_KEY_HERE</string>
+    <string name="sample_gif">http://media.giphy.com/media/orn1xellkRmyQ/giphy.gif</string>
+    <string name="loadingHeadlines">Loading headlines...</string>
+    <string name="pushRandomHeadline">Push a random headline</string>
 </resources>
