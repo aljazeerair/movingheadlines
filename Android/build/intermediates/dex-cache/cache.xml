@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/new/AndroidStudioProjects/MovingHeadlines/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e3d791b42eaa90416cd0b2d2e608092794a3baa4">
+        <dex dex="/Users/new/AndroidStudioProjects/MovingHeadlines/mobile/build/intermediates/pre-dexed/debug/classes-00cf1ff3b94d5916b982ec20e964c12dbbd8acf0.jar" />
+    </item>
+    <item
+        jar="/Users/new/AndroidStudioProjects/MovingHeadlines/wear/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/21.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="efeda77c808750cb670ee9c48d8a1835d89dbcb2">
+        <dex dex="/Users/new/AndroidStudioProjects/MovingHeadlines/wear/build/intermediates/pre-dexed/release/classes-a0d03e0915f3048adc018ba5e973ce5d26d8df00.jar" />
+    </item>
+    <item
+        jar="/Users/new/.gradle/caches/modules-2/files-2.1/com.firebase/firebase-client-jvm/2.2.3/e787a02a644f2681e4af82cdc88dd2f69877692b/firebase-client-jvm-2.2.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e787a02a644f2681e4af82cdc88dd2f69877692b">
+        <dex dex="/Users/new/AndroidStudioProjects/MovingHeadlines/wear/build/intermediates/pre-dexed/debug/firebase-client-jvm-2.2.3-fac01120834d55877aee1b567662565cf883732e.jar" />
+    </item>
+    <item
+        jar="/Users/new/AndroidStudioProjects/MovingHeadlines/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ef5f051e7308febe289dc93c67c5f32785b4260a">
+        <dex dex="/Users/new/AndroidStudioProjects/MovingHeadlines/mobile/build/intermediates/pre-dexed/debug/classes-a95d2ca4c4a3e72384bcfca9a86d6d184eb541f6.jar" />
+    </item>
+    <item
+        jar="/Users/new/AndroidStudioProjects/MovingHeadlines/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="0e8228b4bc69c6a2c8d7c18498a77e53417d2574">
+        <dex dex="/Users/new/AndroidStudioProjects/MovingHeadlines/mobile/build/intermediates/pre-dexed/debug/classes-49794a38e4c827d0d1ab40928744890168d87e6e.jar" />
+    </item>
+    <item
+        jar="/Users/new/AndroidStudioProjects/MovingHeadlines/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="3c0b099f9de16b265ecd6122fcb603e7d0d29f90">
+        <dex dex="/Users/new/AndroidStudioProjects/MovingHeadlines/mobile/build/intermediates/pre-dexed/debug/classes-aa2e1da65b8a3138ce624e2827620cf8e6e06c0a.jar" />
+    </item>
+    <item
+        jar="/Users/new/AndroidStudioProjects/MovingHeadlines/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="41b3870cbe5fa546d8095b5b89d42cb69f3dd175">
+        <dex dex="/Users/new/AndroidStudioProjects/MovingHeadlines/mobile/build/intermediates/pre-dexed/debug/classes-ff613f7094794fa4083945f5fd1d0debd81d802c.jar" />
+    </item>
+    <item
+        jar="/Users/new/.gradle/caches/modules-2/files-2.1/com.koushikdutta.async/androidasync/2.1.3/52aed89a155265a48984ecc06aa8dec12674edad/androidasync-2.1.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="52aed89a155265a48984ecc06aa8dec12674edad">
+        <dex dex="/Users/new/AndroidStudioProjects/MovingHeadlines/wear/build/intermediates/pre-dexed/debug/androidasync-2.1.3-f12b3159f7fb4c1f5b1630229d4d2748c9f77887.jar" />
+    </item>
+    <item
+        jar="/Users/new/.gradle/caches/modules-2/files-2.1/com.koushikdutta.ion/ion/2.1.3/659c4d0a26ab5d857db1440199cef6dd42b4428/ion-2.1.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="0659c4d0a26ab5d857db1440199cef6dd42b4428">
+        <dex dex="/Users/new/AndroidStudioProjects/MovingHeadlines/wear/build/intermediates/pre-dexed/debug/ion-2.1.3-bd89299119f4d7c3bfb65ca03b513d5f7762bcc0.jar" />
+    </item>
+    <item
+        jar="/Users/new/AndroidStudioProjects/MovingHeadlines/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="c976518693e89ad44fbfccfc654941eaec198d08">
+        <dex dex="/Users/new/AndroidStudioProjects/MovingHeadlines/mobile/build/intermediates/pre-dexed/debug/classes-94386a31fcb123d4d0664e25ee01565dbcb1fd49.jar" />
+    </item>
+    <item
+        jar="/Users/new/AndroidStudioProjects/MovingHeadlines/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4c93d99d454c975536bbe3b42283eee847f03ea3">
+        <dex dex="/Users/new/AndroidStudioProjects/MovingHeadlines/mobile/build/intermediates/pre-dexed/debug/classes-77582370b4866a10833e73664b1718416dac0d6b.jar" />
+    </item>
+    <item
+        jar="/Users/new/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.0.0/support-annotations-22.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
+        <dex dex="/Users/new/AndroidStudioProjects/MovingHeadlines/wear/build/intermediates/pre-dexed/release/support-annotations-22.0.0-d6dcf6824d5b9875b3339b70f0b711d6d7bcae74.jar" />
+    </item>
+    <item
+        jar="/Users/new/.gradle/caches/modules-2/files-2.1/com.firebase/firebase-client-android/2.2.3/682d0a8dce58e47bde57316aac7d6bb5618dee6b/firebase-client-android-2.2.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="682d0a8dce58e47bde57316aac7d6bb5618dee6b">
+        <dex dex="/Users/new/AndroidStudioProjects/MovingHeadlines/wear/build/intermediates/pre-dexed/debug/firebase-client-android-2.2.3-4c70525229c9067cca131d68462f6fb508910ac0.jar" />
+    </item>
+    <item
+        jar="/Users/new/AndroidStudioProjects/MovingHeadlines/wear/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/libs/internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
+        <dex dex="/Users/new/AndroidStudioProjects/MovingHeadlines/wear/build/intermediates/pre-dexed/release/internal_impl-22.0.0-d78ebf7a5dd3b018ea2e194825fb4a1241a6903a.jar" />
+    </item>
+    <item
+        jar="/Users/new/AndroidStudioProjects/MovingHeadlines/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="73ccb92b70112f2e463e415ef8d7275de7da6516">
+        <dex dex="/Users/new/AndroidStudioProjects/MovingHeadlines/mobile/build/intermediates/pre-dexed/debug/classes-3cff72d7deb03421078ed7d6ed0eac7dab649ae0.jar" />
+    </item>
+    <item
+        jar="/Users/new/AndroidStudioProjects/MovingHeadlines/mobile/libs/Parse-1.9.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="5811138d4e6cb9d45030e133ef1a61b935154c3a">
+        <dex dex="/Users/new/AndroidStudioProjects/MovingHeadlines/mobile/build/intermediates/pre-dexed/debug/Parse-1.9.0-a93cb4aa1a3a40945d0a9d7d52048a9bad456080.jar" />
+    </item>
+    <item
+        jar="/Users/new/AndroidStudioProjects/MovingHeadlines/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="17f8750d5c0749e44dd7c54aa390d9c937803825">
+        <dex dex="/Users/new/AndroidStudioProjects/MovingHeadlines/mobile/build/intermediates/pre-dexed/debug/classes-307a261c5877bea5730aecdea5c7ebc41728aa96.jar" />
+    </item>
+    <item
+        jar="/Users/new/AndroidStudioProjects/MovingHeadlines/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4c93d99d454c975536bbe3b42283eee847f03ea3">
+        <dex dex="/Users/new/AndroidStudioProjects/MovingHeadlines/wear/build/intermediates/pre-dexed/release/classes-aaea2fb719db5cc75389dc76f9551f61a385db2e.jar" />
+    </item>
+    <item
+        jar="/Users/new/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.3/5fc52c41ef0239d1093a1eb7c3697036183677ce/gson-2.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="5fc52c41ef0239d1093a1eb7c3697036183677ce">
+        <dex dex="/Users/new/AndroidStudioProjects/MovingHeadlines/wear/build/intermediates/pre-dexed/debug/gson-2.3-259b0c9c14bb1ee1407d93ced4941bc29e041720.jar" />
+    </item>
+    <item
+        jar="/Users/new/AndroidStudioProjects/MovingHeadlines/mobile/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
+        <dex dex="/Users/new/AndroidStudioProjects/MovingHeadlines/mobile/build/intermediates/pre-dexed/debug/classes-62d8882a814e6f99e2e225a76b039d9430d8d106.jar" />
+    </item>
+    <item
+        jar="/Users/new/AndroidStudioProjects/MovingHeadlines/wear/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
+        <dex dex="/Users/new/AndroidStudioProjects/MovingHeadlines/wear/build/intermediates/pre-dexed/release/classes-e5df32462b230b47842500928dbbb63a888f133c.jar" />
+    </item>
+    <item
+        jar="/Users/new/AndroidStudioProjects/MovingHeadlines/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="055783146ba9654a725442563be78cad303aad1f">
+        <dex dex="/Users/new/AndroidStudioProjects/MovingHeadlines/mobile/build/intermediates/pre-dexed/debug/classes-54fa82723af4929d67d8528c6a0aea6d6cfa0e34.jar" />
+    </item>
+    <item
+        jar="/Users/new/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-android/1.2.0/6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd/bolts-android-1.2.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd">
+        <dex dex="/Users/new/AndroidStudioProjects/MovingHeadlines/mobile/build/intermediates/pre-dexed/debug/bolts-android-1.2.0-ed1411a2086a752cbca8ed2303e9e19eb1991e75.jar" />
+    </item>
+    <item
+        jar="/Users/new/AndroidStudioProjects/MovingHeadlines/mobile/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/libs/internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
+        <dex dex="/Users/new/AndroidStudioProjects/MovingHeadlines/mobile/build/intermediates/pre-dexed/debug/internal_impl-22.0.0-badf7b5cb6a8c87a206b9e44e48647956ee88fe8.jar" />
+    </item>
+    <item
+        jar="/Users/new/AndroidStudioProjects/MovingHeadlines/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="3033cc3a2c68dff3e5b646d6d084bdbdf7d00b25">
+        <dex dex="/Users/new/AndroidStudioProjects/MovingHeadlines/wear/build/intermediates/pre-dexed/release/classes-b90309a0420bc929d77a6aebc9820700d53397ec.jar" />
+    </item>
+    <item
+        jar="/Users/new/AndroidStudioProjects/MovingHeadlines/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="3033cc3a2c68dff3e5b646d6d084bdbdf7d00b25">
+        <dex dex="/Users/new/AndroidStudioProjects/MovingHeadlines/mobile/build/intermediates/pre-dexed/debug/classes-9b46af73de062aa6ea8f3db2700b757a5d2a9b73.jar" />
+    </item>
+    <item
+        jar="/Users/new/AndroidStudioProjects/MovingHeadlines/mobile/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d84409890828e07d344a3b9b1da545dba9897b51">
+        <dex dex="/Users/new/AndroidStudioProjects/MovingHeadlines/mobile/build/intermediates/pre-dexed/debug/classes-f499812e81704391c650d5c10cd6e82224eb56e6.jar" />
+    </item>
+    <item
+        jar="/Users/new/AndroidStudioProjects/MovingHeadlines/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1c5a76debf0c2857ccad422c4a80ed785982f8df">
+        <dex dex="/Users/new/AndroidStudioProjects/MovingHeadlines/mobile/build/intermediates/pre-dexed/debug/classes-bb42ad453a66766eb06cb6d0fcbe2cce61d4889d.jar" />
+    </item>
+    <item
+        jar="/Users/new/AndroidStudioProjects/MovingHeadlines/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4cd0b093824b3228fffc21ea369b98d0b1db6566">
+        <dex dex="/Users/new/AndroidStudioProjects/MovingHeadlines/mobile/build/intermediates/pre-dexed/debug/classes-d304b46f69aded1b2e233f4a7b682b8e0abcb755.jar" />
+    </item>
+    <item
+        jar="/Users/new/AndroidStudioProjects/MovingHeadlines/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a08d65794b844d8e7540bf9a33859bf3b2482d7f">
+        <dex dex="/Users/new/AndroidStudioProjects/MovingHeadlines/mobile/build/intermediates/pre-dexed/debug/classes-2b0c78f0c398a612b919f9b2f3d034cfc4dc1537.jar" />
+    </item>
+    <item
+        jar="/Users/new/AndroidStudioProjects/MovingHeadlines/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="29fd6d3794b71491c2789708cd8d03c71feb8954">
+        <dex dex="/Users/new/AndroidStudioProjects/MovingHeadlines/mobile/build/intermediates/pre-dexed/debug/classes-caca430bf7b1a622b14f323cf437f741be3ec413.jar" />
+    </item>
+    <item
+        jar="/Users/new/AndroidStudioProjects/MovingHeadlines/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a96b762bde4139de855735f175ec4d17dca55a6d">
+        <dex dex="/Users/new/AndroidStudioProjects/MovingHeadlines/mobile/build/intermediates/pre-dexed/debug/classes-b322ee7ad308b9d57eb3415baf8733b6113b2575.jar" />
+    </item>
+    <item
+        jar="/Users/new/AndroidStudioProjects/MovingHeadlines/wear/build/intermediates/exploded-aar/com.google.android.support/wearable/1.1.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="27f19641b81b1078e653d2f0e5d1ed44d158a785">
+        <dex dex="/Users/new/AndroidStudioProjects/MovingHeadlines/wear/build/intermediates/pre-dexed/release/classes-6038dc9afa338a3c03ad0a22dadfc4652d084758.jar" />
+    </item>
+    <item
+        jar="/Users/new/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.2.2/3c8f6018eaa72d43b261181e801e6f8676c16ef6/jackson-databind-2.2.2.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="3c8f6018eaa72d43b261181e801e6f8676c16ef6">
+        <dex dex="/Users/new/AndroidStudioProjects/MovingHeadlines/wear/build/intermediates/pre-dexed/debug/jackson-databind-2.2.2-1dc8c1be51716192e289796d9a51ed450f2601ff.jar" />
+    </item>
+    <item
+        jar="/Users/new/AndroidStudioProjects/MovingHeadlines/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="9224bc4c54ba95147c7eabd874573763c07cb6be">
+        <dex dex="/Users/new/AndroidStudioProjects/MovingHeadlines/mobile/build/intermediates/pre-dexed/debug/classes-3ab59e0f8aeaaef43e5d5a0dfce0f78e46f6a0ab.jar" />
+    </item>
+    <item
+        jar="/Users/new/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.2.2/d20be6a5ddd6f8cfd36ebf6dea329873a1c41f1b/jackson-core-2.2.2.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d20be6a5ddd6f8cfd36ebf6dea329873a1c41f1b">
+        <dex dex="/Users/new/AndroidStudioProjects/MovingHeadlines/wear/build/intermediates/pre-dexed/debug/jackson-core-2.2.2-1a56c482af66175b18a2097e7cb18e21a80c20dc.jar" />
+    </item>
+    <item
+        jar="/Users/new/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.2.2/285cb9c666f0f0f3dd8a1be04e1f457eb7b15113/jackson-annotations-2.2.2.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="285cb9c666f0f0f3dd8a1be04e1f457eb7b15113">
+        <dex dex="/Users/new/AndroidStudioProjects/MovingHeadlines/wear/build/intermediates/pre-dexed/debug/jackson-annotations-2.2.2-2ef22a79a6d997a6bcb5773de122441766860bfc.jar" />
+    </item>
+    <item
+        jar="/Users/new/AndroidStudioProjects/MovingHeadlines/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="fb04b12526b0073c7fb1ebb70c5842d82ee95596">
+        <dex dex="/Users/new/AndroidStudioProjects/MovingHeadlines/mobile/build/intermediates/pre-dexed/debug/classes-b60f70f7321e536bf02d04814c1df823fc3f4a2c.jar" />
+    </item>
+    <item
+        jar="/Users/new/.gradle/caches/modules-2/files-2.1/com.firebase/tubesock/0.0.11/d37cb67277928cf59344b4196af8d9cee1f1a27c/tubesock-0.0.11.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d37cb67277928cf59344b4196af8d9cee1f1a27c">
+        <dex dex="/Users/new/AndroidStudioProjects/MovingHeadlines/wear/build/intermediates/pre-dexed/debug/tubesock-0.0.11-7f3bb9b0eaf6c2a404db52225284e1d5ec48055b.jar" />
+    </item>
+    <item
+        jar="/Users/new/AndroidStudioProjects/MovingHeadlines/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-appstate/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="7ff613bf78ab057293892fdbd4169eda899c89b9">
+        <dex dex="/Users/new/AndroidStudioProjects/MovingHeadlines/mobile/build/intermediates/pre-dexed/debug/classes-264ed1663a8e2e3f168fe36bcc720adf6c485de1.jar" />
+    </item>
+
+</items>
