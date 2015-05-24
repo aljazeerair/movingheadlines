@@ -1,9 +1,7 @@
 ## Moving Headlines
-<<<<<<< HEAD
+
 Moving Headlines is a mobile app that runs both on your mobile and wearable device, the app sends news updates through GIF-type notifications, the user can later tap on the GIF and open the related story on the companion mobile app.
-=======
-Moving Headlines is an android app that runs both on your mobile and smartwatch, the app sends news updates through GIF-type notifications, the user can later tap on the GIF and open the related story on the phone.
->>>>>>> 5c8b23299165c4d28df401d44f923c54b751880d
+
 ## Demo
 Checkout this [video](https://www.youtube.com/watch?v=FZpxAdgQm8Y)
 ## Project setup
